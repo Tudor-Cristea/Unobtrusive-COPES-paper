@@ -19,3 +19,6 @@ PROBLEMS ENCOUNTERED/TIPS:
 - Some IDs (e.g., for files) are not present as a column. Thus, you might need to get them from the URL present in the requests table. You can check our examples, but you might need to adapt this
 - Some ID columns do not have the same variable name between tables. For example, discussions have "discussion_id" in the requests, but simply "id" in the "discussion_topic_dim". Some use "canvas_id". Check the canvas data portal, it can be really helpful: https://portal.inshosteddata.com/docs 
 - Before merging tables, make sure the ID columns have the same class! If you read everything as character, you should not have this problem
+
+
+Finally, I want to thank Dr. Rianne Conijn (https://github.com/RConijn) for helping with parts of the code. I also want to thank Sonja Kleter for helping with all the slow and manual checks, necessary with such amounts of big data. This would have taken even longer without them!
