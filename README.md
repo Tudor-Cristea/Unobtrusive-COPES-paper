@@ -46,7 +46,7 @@ The final correlations and regressions (the validity check) are in script (7).
 - The IDs (for students, courses, discussions, etc.) were very long, which caused problems when they were read as numeric. We recommend reading everything as character and converting later.
 - Tables may use IDs of different lengths for the same thing. For example, a discussion might have the ID "12340000000019761" in the requests table but "19761" in the discussion table. Check the ID lengths before merging tables; if they differ, remove the first part with `str_remove()`. This worked everywhere for us.
 - Some IDs (e.g., for files) are not available as a column, so you may need to extract them from the URL in the requests table. Our scripts show examples, but you may need to adapt them.
-- Some ID columns have different names in different tables. For example, discussions use "discussion_id" in the requests table but simply "id" in "discussion_topic_dim", and some tables use "canvas_id". The Canvas Data documentation is very helpful: <https://portal.inshosteddata.com/docs>
+- Some ID columns have different names in different tables. For example, discussions use "discussion_id" in the requests table but simply "id" in "discussion_topic_dim", and some tables use "canvas_id".
 - Before merging tables, make sure the ID columns have the same class. If you read everything as character, this should not be a problem.
 
 ## Licence and citation
