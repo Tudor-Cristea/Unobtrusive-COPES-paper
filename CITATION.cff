@@ -1,34 +1,51 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
 cff-version: 1.2.0
 title: >-
-  Unobtrusive Measurement of Self-Regulated Learning COPES
-  scale
+  Scripts for: Unobtrusive measurement of self-regulated
+  learning: A clickstream-based multi-dimensional scale
 message: >-
-  If you use this software, please cite it using the
-  metadata from this file.
+  If you use this code, please cite the paper listed
+  under preferred-citation.
 type: software
 authors:
   - given-names: Tudor
     family-names: Cristea
-    email: t.cristea@tue.nl
     affiliation: Eindhoven University of Technology
     orcid: 'https://orcid.org/0000-0003-1377-0971'
 identifiers:
   - type: doi
     value: 10.5281/zenodo.7855167
-url: >-
-  https://github.com/TudorCristeaEdu/Unobtrusive-Measurement-of-Self-Regulated-Learning
+    description: Archived version of this code on Zenodo
+repository-code: 'https://github.com/Tudor-Cristea/Unobtrusive-COPES-paper'
 abstract: >-
-  The scripts used for the "Unobtrusive Measurement of
-  Self-Regulated Learning:A Clickstream-Based
-  Multi-dimensional Scale". These are all done using Canvas
-  data. Some have prerequisites, which are mentioned below;
-  I also numbered the scripts, so it is easier to follow.
+  R scripts used to build clickstream-based scales of
+  self-regulated learning, based on the COPES model, from
+  Canvas data. Chapter 4 of the author's PhD dissertation.
 keywords:
   - COPES model
-  - SRL
-  - scale
-  - online
-  - LMS
+  - self-regulated learning
+  - learning analytics
+  - scale development
+  - Canvas
+license: MIT
+preferred-citation:
+  type: article
+  title: >-
+    Unobtrusive measurement of self-regulated learning:
+    A clickstream-based multi-dimensional scale
+  authors:
+    - given-names: Tudor
+      family-names: Cristea
+      orcid: 'https://orcid.org/0000-0003-1377-0971'
+    - given-names: Chris
+      family-names: Snijders
+    - given-names: Uwe
+      family-names: Matzat
+    - given-names: Ad
+      family-names: Kleingeld
+  journal: Education and Information Technologies
+  volume: 29
+  issue: 11
+  start: 13465
+  end: 13494
+  year: 2024
+  doi: 10.1007/s10639-023-12372-6
